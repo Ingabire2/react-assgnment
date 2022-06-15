@@ -6,6 +6,7 @@ import HomeLayout from '../component/HomeLayout';
 import Tours from "../views/Tours";
 import Contact from "../views/Contact";
 import Gallery from '../views/Gallery';
+import SignIN from '../views/SignIn';
 const Index =()=>{
     return (
         <HomeLayout>
@@ -16,6 +17,7 @@ const Index =()=>{
          <Route exact path='/tours' element={<Tours/>}></Route>;
          <Route exact path='/contact' element={<Contact/>}></Route>;
          <Route exact path='/gallery' element={<Gallery/>}></Route>;
+         <Route exact path='/signIn' element={<SignIN/>}></Route>;
      </Routes>
      </HomeLayout>
     );

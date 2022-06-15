@@ -17,6 +17,7 @@ Although shared with larger Goma across<br/> the border with DRC to the west, th
 
 They are<br/> peppered with bamboo built shacks and eco lodges – perfect for those eager to immerse<br/> themselves and escape in the Rwandan wilderness.
         </p>
+<video src='<iframe width="560" height="315" src="https://www.youtube.com/embed/45UT03fciPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'></video>
       </div>
       <div >
         <img style={{width:'60rem', margin:'20px'}}src="https://cdn.thecrazytourist.com/wp-content/uploads/2017/01/Gisenyi.jpg"

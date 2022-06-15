@@ -18,13 +18,11 @@ html{
 }
 .heading-title{
     color:white;
-    font-size:4.4rem ;
+    font-size:4rem ;
     letter-spacing:1px ;
-    text-align: center;
-    justify-items: center;
     text-shadow: 0px 3px 3px #333;
     padding-top: 2rem;
-    /* padding-left: 40rem; */
+    padding-left: 21rem; 
 }
 .carousel-img{
     width:35%;
