@@ -1,5 +1,5 @@
 import React from "react";
-import {Input,Form,Space,DatePicker,Card} from "antd";
+import {Input,Form,Space,DatePicker,Card,Typography} from "antd";
 import { UserOutlined} from '@ant-design/icons';
 import {
     AutoComplete,
@@ -9,6 +9,7 @@ import {
   } from 'antd';
   import "./Contact.css";
   const { TextArea } = Input;
+  const {  Title } = Typography;
   const { RangePicker } = DatePicker;
 
   const options = [
@@ -40,9 +41,10 @@ const Contact = () =>{
     return (
         <>
          <Card >
+         <div className="container">
+         <Title>Get in Touch</Title>
          <div className="btn">
          
-        <h1 className="title">Get in Touch</h1>;
        
             <Input size="medium" placeholder="Names" prefix={<UserOutlined />} />
     <br />
@@ -94,7 +96,9 @@ const Contact = () =>{
         style={{paddingLeft:'40px',paddingRight:'40px',fontSize:'18px',height:"40px",borderRadius:'.6rem'}}>Send</Button>
       </Form.Item></Form>
     </div>
+    </div>
     </Card>
+    
         </>
     )
 }

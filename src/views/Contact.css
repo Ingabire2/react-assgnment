@@ -2,16 +2,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 .btn{
-    padding: 2rem 85rem 0 10rem;
+    /* padding: 2rem 85rem 0 10rem; */
     color: black;
     box-shadow: 1px solid black;
-    background-color: #333;
-    height: 100vh;
+    background-color: rgba(52, 52, 52, 0.225);
+    height: 80vh;
+    width: 500px;
+    padding: 50px;
+    margin-left: 25px;
 }
-.title{
-    font-size: 3rem;
-    font-weight: 700;
-    padding-left: 10rem;
+.container{
+    background-image: url('https://www.dabblinginjetlag.com/wp-content/uploads/2021/01/Best-Travel-Photography-Tips.jpg');
+   object-fit: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+title{
+    padding: 0;
+    margin: 0;
 }
