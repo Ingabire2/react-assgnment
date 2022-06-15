@@ -1,0 +1,30 @@
+[
+
+    {
+        "title":"Muhazi Park Tour",
+        "description":"Minim consequat adipisicing labore veniam non nisi cupidatat amet esse Minim consequat adipisicing labore veniam non nisi cupidatat amet",
+        "dueDate":"Date:15-05-2030 ",
+        "amount" :"$200",
+        "photo":"https://media-cdn.tripadvisor.com/media/photo-s/12/06/9b/16/muhazi-beach-hotel.jpg",
+        "seats"  :5,
+        "prepareBy": "Prepared By Ingabire"
+    },
+   {
+    "title":"Gishwati Park Tour",
+    "description":"Dolor qui ipsum non dolore ea.Eiusmod reprehenderit do minim ea labore.Minim consequat adipisicing labore veniam non nisi cupidatat amet ",
+    "dueDate":"Date:15-05-2030",
+    "amount" :"$200",
+    "photo":"https://www.congosafaristours.com/wp-content/uploads/2021/07/Chimpanzee-Trekking-in-Rwanda-Gishwati.jpg",
+    "seats"  :5,
+    "prepareBy": "Prepared By Ingabire"
+},
+{
+    "title":"Nyungwe Park Tour",
+    "description":"Dolor qui ipsum non dolore ea.Eiusmod reprehenderit do minim ea labore Minim consequat adipisicing labore veniam non nisi cupidatat amet ",
+    "dueDate":"Date:15-05-2030",
+    "amount" :"$200",
+    "photo":"https://i0.wp.com/eastafricanjunglesafaris.com/wp-content/uploads/2019/05/rwanda-2.jpg?resize=900%2C480&ssl=1",
+    "seats"  :5,
+    "prepareBy": "Prepared By Ingabire"
+}
+]

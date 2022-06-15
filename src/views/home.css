@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+.home-container{
+    background-image: url("../assets/images/bck.jpg") ;
+    height:100vh;
+    /* font-size: cover; */
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.heading-title{
+    color:white;
+    font-size:4.4rem ;
+    letter-spacing:1px ;
+    text-align: center;
+    justify-items: center;
+    text-shadow: 0px 3px 3px #333;
+    padding-top: 2rem;
+    /* padding-left: 40rem; */
+}
+.carousel-img{
+    width:35%;
+    margin:0 auto;
+}
+.topTour{
+    font-size: 3.2rem;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    /* margin-top: 0.8rem; */
+  }
+  .align{
+      position: relative;
+      background-color: green;
+      border:none;
+      height:.8rem;
+      width: 8rem;
+      margin-left: 58rem;
+      margin-top: -2rem;
+  }

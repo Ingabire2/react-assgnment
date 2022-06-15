@@ -1,0 +1,8 @@
+.tour-card-grid{
+  /* background:#777 ; */
+    max-width: 32%;
+    box-shadow: 2px 3px gray;
+    margin: 0.2em;
+    justify-content: center;
+   
+}
