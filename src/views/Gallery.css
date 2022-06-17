@@ -3,5 +3,14 @@
     grid-template-columns: repeat(3,1fr);
 }
 h1{
-    margin-left: 20rem;
+    /* margin-left: 50rem; */
+    text-align: center;
+}
+.gallery{
+    font-size: 36px;
+    font-weight:bold;
+   background-image: linear-gradient(to right ,rgba(233, 12, 12, 0.695),rgba(53, 197, 53, 0.952));
+color: transparent;
+-webkit-background-clip: text;
+
 }

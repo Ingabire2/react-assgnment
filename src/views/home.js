@@ -1,16 +1,13 @@
 import React from "react";
-import Nav from '../component/navbar';
 import 'antd/dist/antd.css';
 import { AudioOutlined } from '@ant-design/icons';
-import { Input, Space } from 'antd';
+import { Input,} from 'antd';
 import { Carousel } from 'antd';
 import Gorilla from "../assets/images/gorilla.jpg";
 import Giraffe from "../assets/images/giraffe.jpg";
 import Zebra from "../assets/images/zebra.jpg";
 import Canopy from "../assets/images/canopy.jpg";
 import "./home.css";
-import Footer from "../component/footer";
-import HomeLayout from "../component/HomeLayout";
 const { Search } = Input;
 const suffix = (
   <AudioOutlined

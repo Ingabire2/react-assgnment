@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/tour-logo.jpg";
+import logo from "../assets/images/logo.jpg";
 import "./navbar.css";
 const Nav =()=>{
     return (
@@ -23,12 +23,12 @@ const Nav =()=>{
                             </a>
                             </li>
                             <li> 
-                        <a href=""className="nav-link ">
+                        <a href="/gallery"className="nav-link ">
                             Gallery
                             </a>
                             </li>
                             <li> 
-                            <a href=""className="nav-link link-green">
+                            <a href="signIn"className="nav-link link-green">
                         Sign-In
                             </a>
                             </li>

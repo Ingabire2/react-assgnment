@@ -30,20 +30,20 @@ import "./footer.css";
              </div>
              <div className="account-column">
              <h3 className="footer-title"> Account</h3>
-             <p><a href="#">Create-Account</a></p>
-             <p><a href="#">Sign-In</a></p> 
+             <p><a href="">Create-Account</a></p>
+             <p><a href="">Sign-In</a></p> 
              </div>
              <div className="company-column">
              <h3 className="footer-title"> Company</h3>
-             <p><a href="#">About SheCanCodet</a></p>
-             <p><a href="#">Careers</a></p>
-             <p><a href="#">Parterns</a></p> 
+             <p><a href="">About SheCanCodet</a></p>
+             <p><a href="">Careers</a></p>
+             <p><a href="">Parterns</a></p> 
              </div>
              <div className="company-column">
              <h3 className="footer-title"> Resources</h3>
-             <p><a href="#">SheCanCode directory</a></p>
-             <p><a href="#">Help Center</a></p> 
-             <p><a href="#">Privacy and Terms</a></p> 
+             <p><a href="">SheCanCode directory</a></p>
+             <p><a href="">Help Center</a></p> 
+             <p><a href="">Privacy and Terms</a></p> 
              </div>
          </div>
      )

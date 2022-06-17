@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography } from "antd";
 
-const { Text, Title } = Typography;
+const { Title } = Typography;
 const AboutUs = () => {
   return (
     <>
@@ -21,7 +21,7 @@ They are<br/> peppered with bamboo built shacks and eco lodges – perfect for t
       </div>
       <div >
         <img style={{width:'60rem', margin:'20px'}}src="https://cdn.thecrazytourist.com/wp-content/uploads/2017/01/Gisenyi.jpg"
-        ></img>
+        alt="photo"></img>
       </div>
     </>
   );
