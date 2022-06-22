@@ -41,6 +41,11 @@ const Dashboard =({children})=>{
               icon: <UploadOutlined />,
               label: <Link to='/dashboard-admin'> Create Tour</Link>,
             },
+            {
+              key: '4',
+              icon: <UploadOutlined />,
+              label: <Link to='/dashb'>Manager Users</Link>,
+            },
           ]} >
            </Menu>
       

@@ -1,15 +1,17 @@
 import React from "react";
 import {Input,Button,Form,Typography} from "antd";
+import Dashboard from "../../component/DashboardLayout";
 const {  Title } = Typography;
 
 
 const NewTour =()=>{
+    
     const onFinish = (values) => {
         console.log('Received values of form: ', values);
       };
     return(
         <>
-        
+        <Dashboard>
         <Form onFinish={onFinish}
         style={{backgroundColor:'#999',padding:' 4rem 6rem',marginRight:'380px'}}>
         <Title>Create Tour</Title>
@@ -27,6 +29,7 @@ const NewTour =()=>{
                 style={{padding:'1px 50px',fontSize:'16px',justifyItems:'center',
                 marginLeft:'160px'}}>Publish</Button></Form.Item>
                 </Form>
+                </Dashboard>
                 </>
     )
 }

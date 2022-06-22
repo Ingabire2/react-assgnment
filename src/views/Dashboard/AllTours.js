@@ -3,6 +3,7 @@ import allTours from "../../assets/data/tours.json";
 import 'antd/dist/antd.css';
 
 import { Table, Space } from 'antd';
+import Dashboard from "../../component/DashboardLayout";
 const columns = [
   {
     title: 'Title',
@@ -25,12 +26,16 @@ const columns = [
 
 const Alltour =()=>{
     return(
+      <>
+      <Dashboard>
     <Table
     columns={columns}
     
     dataSource={allTours}
-    
   />
+    </Dashboard>
+
+  </>
     )
 }
 export default Alltour;
