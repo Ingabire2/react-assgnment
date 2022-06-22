@@ -6,6 +6,7 @@
         "dueDate":"Date:15-05-2030 ",
         "amount" :"$200",
         "photo":"https://media-cdn.tripadvisor.com/media/photo-s/12/06/9b/16/muhazi-beach-hotel.jpg",
+        "pictures":"https://res.cloudinary.com/enchanting/w_1600,h_700,c_fill,f_auto,q_70/artemis-mdm/places/15e07bcc-8fe0-4572-b96b-3dad4cf77488.jpg",
         "seats"  :5,
         "prepareBy": "Prepared By Ingabire"
     },

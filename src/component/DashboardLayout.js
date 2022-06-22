@@ -3,6 +3,7 @@ import 'antd/dist/antd.css';
 import './dashboard.css';
 import logo from '../assets/images/logo.jpg';
 import {Link} from 'react-router-dom';
+
 import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
@@ -41,7 +42,7 @@ const Dashboard =({children})=>{
               label: <Link to='/dashboard-admin'> Create Tour</Link>,
             },
           ]} >
-          <Link to='/dashboard'> Alltours</Link> </Menu>
+           </Menu>
       
        
       </Sider>
@@ -67,8 +68,10 @@ const Dashboard =({children})=>{
         >
           {children}
         </Content>
+       
       </Layout>
     </Layout>
+    
         </>
     )
 }

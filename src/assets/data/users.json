@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Eric Dushime",
+        "email": "eric@gmail.com",
+        "gender":"Male",
+        "home":"kimironko",
+        "isActive":true,
+        "about":"Sint labore minim cillum commodo sint deserunt proident.",
+        "phone":"+250788888543",
+        "profilePicture":"https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"
+    },
+    {
+        "name":"Elise Dushimemungu",
+        "email": "elise@gmail.com",
+        "gender":"Female",
+        "home":"kicukiro",
+        "isActive":false,
+        "about":"Sint labore minim cillum commodo sint deserunt proident.",
+        "phone":"+250788888543",
+        "profilePicture":"https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"
+    },
+    {
+        "name":"Maya Dukuze",
+        "email": "maya@gmail.com",
+        "gender":"Male",
+        "home":"Gasabo",
+        "isActive":true,
+        "about":"Sint labore minim cillum commodo sint deserunt proident.",
+        "phone":"+250788888543",
+        "profilePicture":"https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"
+    },
+    {
+        "name":"Douce Nzomukosha",
+        "email": "doudou@gmail.com",
+        "gender": "Female",
+        "home":"Gahoromanyi",
+        "isActive":false,
+        "about":"Sint labore minim cillum commodo sint deserunt proident.",
+        "phone":"+250788888543",
+        "profilePicture":"https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"
+    }
+    
+    
+]

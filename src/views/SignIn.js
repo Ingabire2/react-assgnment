@@ -1,37 +1,82 @@
 import React from 'react';
-import './Signin.css'
+import './Signin.css';
+import {Input,Form} from "antd";
+import { UserOutlined} from '@ant-design/icons';
+import {
+    AutoComplete,
+    Cascader,
+    Select,
+  } from 'antd';
+  const { TextArea } = Input;
+  const options = [
+    {
+      value: 'kicukiro',
+      label: 'Kigali',
+      children: [{value: 'Gasabo',
+                  label: 'Nyarugenge',
+                  children: [
+                     {value: 'Gasabo',
+                      label: 'West Lake', },],
+                 },
+               ],
+    },
+    {value: 'Nyamata',
+      label: 'Nyarugenge',
+      children: [
+        {value: 'nanjing',
+          label: 'Nanjing',
+          children: [
+            {value: 'zhonghuamen',
+              label: 'Zhong Hua Men',},],
+        },
+      ],
+    },
+  ];
+  const { Option } = Select;
+
+
 function RegistrationForm() {
     return(
         <>
+      <text style={{marginLeft:'50px',fontSize:'32px'}}>Sign-Up</text>
+      <Form style={{marginLeft:'40px'}}>  
+<Input size="medium" placeholder="Names" prefix={<UserOutlined />}style={{ width: '30%' }} />
+    <br />
+    <br />
+    <Input placeholder="Email" prefix={<UserOutlined />} style={{ width: '30%' }}/>
+    <br />
+    <br />
         
-        <h1 style={{paddingTop:'30px'}}>Registration Form</h1>
-      <div className="form">
-          <div className="form-body">
-              <div className="username">
-                  <label className="form__label" for="firstName">First Name </label>
-                  <input className="form__input" type="text" id="firstName" placeholder="First Name"/>
-              </div>
-              <div className="lastname">
-                  <label className="form__label" for="lastName">Last Name </label>
-                  <input  type="text" name="" id="lastName"  className="form__input"placeholder="LastName"/>
-              </div>
-              <div className="email">
-                  <label className="form__label" for="email">Your Email </label>
-                  <input  type="email" id="email" className="form__input" placeholder="Email"/>
-              </div>
-              <div className="password">
-                  <label className="form__label" for="password">Password </label>
-                  <input className="form__input" type="password"  id="password" placeholder="Password"/>
-              </div>
-              <div className="confirm-password">
-                  <label className="form__label" for="confirmPassword">Password </label>
-                  <input className="form__input" type="password" id="confirmPassword" placeholder="Confirm Password"/>
-              </div>
-          </div>
-          <div class="footer" >
-              <button type="primary" >-Register- </button>
-          </div>
-      </div> 
+        <Input.Group compact >
+      <Select
+        defaultValue="Sign Up"
+         >
+        <Option value="Sign Up">Sign Up</Option>
+        <Option value="Sign In">Sign In</Option>
+      </Select>
+      <AutoComplete
+        style={{ width: '23%', }}
+        placeholder="Email"
+        options={[ { value: 'text 1',},{value: 'text 2',},
+        ]}
+      />
+    </Input.Group>
+    <br /> 
+   
+    <TextArea rows={4} placeholder='Your message' style={{width: '30%',}}></TextArea> <br/>&nbsp;
+    <br/>
+
+    <button type="primary"style={{width: '15%',marginLeft:'60px',padding:'8px'}} >Register </button>
+          
+    </Form>
+    <Form-item style={{float:'right'}}>
+      <title>Contacts</title>
+      <text>Email:ingabire@gmail.com</text> <br/>
+      <text>Teleph:+25678644302</text><br/>
+      <text>Twitter:ingabire@tweeter</text><br/>
+      <text>Linkedlin:ingabire@Linkedlin</text><br/>
+    </Form-item>
+   
       </>     
     )       
 }

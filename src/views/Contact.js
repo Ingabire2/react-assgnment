@@ -9,92 +9,43 @@ import {
   } from 'antd';
   import "./Contact.css";
   const { TextArea } = Input;
-  const {  Title } = Typography;
+  const { Text, Title } = Typography;
   const { RangePicker } = DatePicker;
 
-  const options = [
-    {
-      value: 'kicukiro',
-      label: 'Kigali',
-      children: [{value: 'Gasabo',
-                  label: 'Nyarugenge',
-                  children: [
-                     {value: 'Gasabo',
-                      label: 'West Lake', },],
-                 },
-               ],
-    },
-    {value: 'Nyamata',
-      label: 'Nyarugenge',
-      children: [
-        {value: 'nanjing',
-          label: 'Nanjing',
-          children: [
-            {value: 'zhonghuamen',
-              label: 'Zhong Hua Men',},],
-        },
-      ],
-    },
-  ];
-  const { Option } = Select;
+  
 const Contact = () =>{
     return (
         <>
          <Card >
+         <Title style={{float:'left',fontSize:'28px',paddingLeft:'85px',paddingTop:'30px'}}>Book Your Stay</Title>
          <div className="container">
-         <Title>Get in Touch</Title>
-         <div className="btn">
          
-       
-            <Input size="medium" placeholder="Names" prefix={<UserOutlined />} />
-    <br />
-    <br />
-    <Input placeholder="Address" prefix={<UserOutlined />} />
-    <br />
-    <br />
-        
-        <Input.Group compact>
-      <Select
-        defaultValue="Sign Up"
-        style={{ width: '30%' }} >
-        <Option value="Sign Up">Sign Up</Option>
-        <Option value="Sign In">Sign In</Option>
-      </Select>
-      <AutoComplete
-        style={{ width: '70%', }}
-        placeholder="Email"
-        options={[ { value: 'text 1',},{value: 'text 2',},
-        ]}
-      />
-    </Input.Group>
-    <br /> 
-    <Input.Group compact>
-      <Select style={{ width: '30%',}}
-        defaultValue="Home"
-      >
-        <Option value="Home">Home</Option>
-        <Option value="Company">Company</Option>
-      </Select>
-      <Cascader
-        style={{width: '70%',}}
-        options={options}
-        placeholder="Select Address"
-      />
-    </Input.Group>
-    <br />
-    <Space direction="vertical" size={12}>
+         <div className="btn">        
+
+    <text style={{float:'left',fontSize:"18px",fontWeight:'bold'}}>Check-In</text>
     <RangePicker showTime />
-    </Space> 
+   <br/> <br/>
+    <text  style={{float:'left',fontSize:"18px",fontWeight:'bold'}}>Check-Out</text>
+    <RangePicker showTime />
      <br />
-     <br />
-    <Form>
-   
-        <TextArea rows={4} placeholder='Your message'></TextArea> <br/>&nbsp;
+     <br /> 
+     <Form >
+        <Form-item>
+    <text style={{fontSize:'18px'}}>Adults</text>
+ <br/>
+    <Select style={{ width: '80%',}}/>
     
-    <Form.Item >
-        <Button type="primary" 
-        style={{paddingLeft:'40px',paddingRight:'40px',fontSize:'18px',height:"40px",borderRadius:'.6rem'}}>Send</Button>
-      </Form.Item></Form>
+   <br/> 
+   </Form-item> <br/>
+   <Form-item>
+   <text style={{fontSize:'18px'}}> Kids</text>
+   <br/>
+    <Select style={{ width: '80%',}}/></Form-item></Form>
+    <br/>
+    <br />
+   <Button  
+        style={{paddingLeft:'70px',border:'none',background:'black',color:'white',paddingRight:'70px',fontSize:'18px',height:"40px",borderRadius:'.6rem'}}>Search
+    </Button>
     </div>
     </div>
     </Card>

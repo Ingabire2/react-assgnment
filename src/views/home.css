@@ -17,12 +17,15 @@ html{
     object-fit: cover;
 }
 .heading-title{
+    display: flex;
     color:white;
     font-size:4rem ;
     letter-spacing:1px ;
     text-shadow: 0px 3px 3px #333;
-    padding-top: 2rem;
-    padding-left: 21rem; 
+    /* padding-top: 2rem; */
+    /* padding-left: 21rem;  */
+    justify-content: center;
+    text-align: center;
 }
 .carousel-img{
     width:35%;

@@ -1,7 +1,7 @@
 import React from "react";
-import allTours from "../../assets/data/tours.json"
+import allTours from "../../assets/data/tours.json";
 import 'antd/dist/antd.css';
-//import './index.css';
+
 import { Table, Space } from 'antd';
 const columns = [
   {
