@@ -11,7 +11,7 @@ const NewTour =()=>{
       };
     return(
         <>
-        <Dashboard>
+        <Dashboard menuSelectorIndex="2">
         <Form onFinish={onFinish}
         style={{backgroundColor:'#999',padding:' 4rem 6rem',marginRight:'380px'}}>
         <Title>Create Tour</Title>

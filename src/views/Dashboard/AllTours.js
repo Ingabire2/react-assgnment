@@ -27,7 +27,7 @@ const columns = [
 const Alltour =()=>{
     return(
       <>
-      <Dashboard>
+      <Dashboard menuSelectorIndex="1">
     <Table
     columns={columns}
     

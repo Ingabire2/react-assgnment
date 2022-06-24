@@ -8,12 +8,13 @@ import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
   UploadOutlined,
+  UserOutlined ,
   VideoCameraOutlined,
 } from '@ant-design/icons';
 import { Layout, Menu } from 'antd';
 const { Header, Sider, Content } = Layout;
 
-const Dashboard =({children})=>{
+const Dashboard =({children,menuSelectorIndex})=>{
   const [collapsed, setCollapsed] = useState(false);
   //const [isOpen, setOpen] = useState(false);
     return(
@@ -24,29 +25,30 @@ const Dashboard =({children})=>{
         <Menu
           theme="dark"
           mode="inline"
-          defaultSelectedKeys={['1']}
+          defaultSelectedKeys={['${menuSelectorIndex}']}
           items={[
-            {
-              key: '1',
+              {
+              key: '4',
               //icon: <UserOutlined />,
-              label: 'Dashboard',
+              label: 'Dashboard', 
             },
             {
-              key: '2',
+              key: '1',
               icon: <VideoCameraOutlined />,
               label: <Link to='/dashboard'> All Tours</Link> ,
             },
             {
-              key: '3',
+              key: '2',
               icon: <UploadOutlined />,
               label: <Link to='/dashboard-admin'> Create Tour</Link>,
             },
             {
-              key: '4',
+              key: '3',
               icon: <UploadOutlined />,
               label: <Link to='/dashb'>Manager Users</Link>,
             },
-          ]} >
+         
+          ]} > 
            </Menu>
       
        
@@ -57,11 +59,12 @@ const Dashboard =({children})=>{
           style={{
             padding: 0, backgroundColor:"#999",
           }}
-        >
-          {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
+        > ,
+          {React.createElement (collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
             className: 'trigger ',
-            onClick: () => setCollapsed(!collapsed),
-          })}
+            
+            onClick: () => setCollapsed(!collapsed), 
+          })}<Link to='/chart'style={{color:'black'}}> Dashboard</Link> 
         </Header>
         <Content
           className=" isOpen && site-layout-background"
