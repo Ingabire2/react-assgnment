@@ -3,10 +3,10 @@ import React, { useCallback, useState } from "react";
 import { PieChart, Pie, Cell } from "recharts";
 
 const data = [
-  { name: "Group A", value: 400, },
-  { name: "Group B", value: 300 },
-  { name: "Group C", value: 300 },
-  { name: "Group D", value: 200 }
+  { name: "Nyungwe", Income: 400, },
+  { name: "Muhazi", Income: 300 },
+  { name: "Gishwati", Income: 300 },
+  { name: "Akagera", Income: 200 }
 ];
 
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
@@ -29,7 +29,7 @@ const renderCustomizedLabel = ({
     <text
       x={x}
       y={y}
-      fill="white"
+      fill="tour"
       textAnchor={x > cx ? "start" : "end"}
       dominantBaseline="central"
     >
@@ -48,7 +48,7 @@ export default function AppPie() {
         label={renderCustomizedLabel}
         outerRadius={120}
         fill="#8884d8"
-        dataKey="value"
+        dataKey="Income"
       >
         {data.map((entry, index) => (
           <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />

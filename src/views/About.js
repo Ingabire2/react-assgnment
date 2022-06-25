@@ -6,9 +6,9 @@ const AboutUs = () => {
   return (
     <>
   
-      <div style={{ float: "right",marginTop: "50px" }}>
+      <div style={{ float: "right",marginTop: "50px",marginLeft:"0" }}>
         <Title strong> About Us </Title>
-        <p placement="right"style={{ marginTop: "40px",fontSize:'16px',lineHeight:'1.5' }} >
+        <p placement="right"style={{ marginTop: "40px",fontSize:'16px',lineHeight:'1.6' }} >
         Gisenyi
 The gateway to that great speck of blue that is Lake Kivu,<br/> sitting amidst the verdant hills and mountains of the Albertine<br/> Rift Valley, Gisenyi is a place where the African <br/>jungles cascade down grassy hills in sporadic bouts of palm trees<br/> and exotic cassiyas.
 
@@ -18,12 +18,14 @@ Although shared with larger Goma across<br/> the border with DRC to the west, th
 
 They are<br/> peppered with bamboo built shacks and eco lodges – perfect for those eager to immerse<br/> themselves and escape in the Rwandan wilderness.
         </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/45UT03fciPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
       </div>
       <div >
-        <img style={{width:'60rem', margin:'20px', heigth:'60px'}}src="https://cdn.thecrazytourist.com/wp-content/uploads/2017/01/Gisenyi.jpg"
+        <img style={{width:'50rem', margin:'60px', heigth:'50px'}}src="https://cdn.thecrazytourist.com/wp-content/uploads/2017/01/Gisenyi.jpg"
         alt="photo"></img>
       </div>
+      <iframe width="560" height="315"style={{dislay:"flex", textAlign:"center", justifyContent:"center",margin:"10px 400px"}} 
+       src="https://www.youtube.com/embed/45UT03fciPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </>
   );
 };

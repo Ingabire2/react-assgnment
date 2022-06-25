@@ -8,8 +8,8 @@ import {
     Select,
   } from 'antd';
   import "./Contact.css";
-  const { TextArea } = Input;
-  const { Text, Title } = Typography;
+  const { pArea } = Input;
+  const { p, Title } = Typography;
   const { RangePicker } = DatePicker;
 
   
@@ -17,30 +17,28 @@ const Contact = () =>{
     return (
         <>
          <Card >
-         <Title style={{float:'left',fontSize:'28px',paddingLeft:'85px',paddingTop:'30px'}}>Book Your Stay</Title>
+         <Title style={{float:'left',fontSize:'28px',marginLeft:'105px',marginTop:'80px'}}>Book Your Stay</Title>
          <div className="container">
          
          <div className="btn">        
 
-    <text style={{float:'left',fontSize:"18px",fontWeight:'bold'}}>Check-In</text>
+    <p style={{float:'left',fontSize:"18px",fontWeight:'bold'}}>Check-In</p>
     <RangePicker showTime />
    <br/> <br/>
-    <text  style={{float:'left',fontSize:"18px",fontWeight:'bold'}}>Check-Out</text>
+    <p  style={{float:'left',fontSize:"18px",fontWeight:'bold'}}>Check-Out</p>
     <RangePicker showTime />
      <br />
      <br /> 
-     <Form >
-        <Form-item>
-    <text style={{fontSize:'18px'}}>Adults</text>
- <br/>
-    <Select style={{ width: '80%',}}/>
-    
-   <br/> 
-   </Form-item> <br/>
-   <Form-item>
-   <text style={{fontSize:'18px'}}> Kids</text>
-   <br/>
-    <Select style={{ width: '80%',}}/></Form-item></Form>
+     <div style={{display:"flex"}}>    
+    <span style={{fontSize:'18px'}}>Adults
+
+    <Select style={{ width: '80%'}}/></span>
+   
+   <span style={{fontSize:'18px'}}> Kids
+
+   <Select style={{ width: '80%',}}/></span>
+
+    </div>
     <br/>
     <br />
    <Button  
@@ -48,6 +46,17 @@ const Contact = () =>{
     </Button>
     </div>
     </div>
+    <Card style={{width: 300,margin:"40px",float:"right",marginTop:"-60rem",marginRight:"200px",textAlign:"center",
+    fontWeight:"bold"}}
+    title="CONTACT-US">
+    
+    
+      
+      <p bold>Email:ingabire@gmail.com</p> <br/>
+      <p>Teleph:+25678644302</p><br/>
+      <p>Twitter:ingabire@tweeter</p><br/>
+      <p>Linkedlin:ingabire@Linkedlin</p><br/>
+      </Card>
     </Card>
     
         </>

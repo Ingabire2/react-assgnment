@@ -104,7 +104,7 @@ const UsersTable = () => {
           background: "none",
           border: "1px solid red",
           padding: "5px",
-          marginRight:'20px'
+          marginRight:'80px'
         }}
       >
         ADD NEW

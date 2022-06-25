@@ -10,8 +10,10 @@ const AdminChart = () => (
             <div className='widgets'>
             <Widgets type="User" />
             <Widgets type="TotalOrder"/>
+            {/* <div className='leftW'> */}
             <Widgets type="Price"/>
             <Widgets type="TotalEarning"/></div>
+            {/* </div> */}
             <div className='pie' style={{display:'flex'}}>
             <ChartBar/>
             <AppPie/></div>

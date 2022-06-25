@@ -19,9 +19,9 @@ const Widgets = ({type}) => {
     break;
     case "TotalOrder":
     data={
-        title:"TotalORDERS",
+        title:"INCOME",
         counter:"$529",
-        link: "See all orders",
+        link: "See all Tours",
         icon:<PersonIcon className="icon"/> ,
     };
     break;

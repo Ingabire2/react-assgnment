@@ -25,7 +25,7 @@ const Dashboard =({children,menuSelectorIndex})=>{
         <Menu
           theme="dark"
           mode="inline"
-          defaultSelectedKeys={['${menuSelectorIndex}']}
+          defaultSelectedKeys={[`${menuSelectorIndex}`]}
           items={[
               {
               key: '4',
@@ -59,12 +59,12 @@ const Dashboard =({children,menuSelectorIndex})=>{
           style={{
             padding: 0, backgroundColor:"#999",
           }}
-        > ,
+        > ,<a href="/chart" style={{color:"black"}}>
           {React.createElement (collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
             className: 'trigger ',
             
             onClick: () => setCollapsed(!collapsed), 
-          })}<Link to='/chart'style={{color:'black'}}> Dashboard</Link> 
+          })} </a> 
         </Header>
         <Content
           className=" isOpen && site-layout-background"

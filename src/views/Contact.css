@@ -9,17 +9,18 @@
     color: black;
     box-shadow: 1px solid black;
     background-color: rgba(52, 52, 52, 0.225);
-    height: 80vh;
-    width: 300px;
-    padding: 50px;
+    height: 70vh;
+    width: 400px;
+    padding: 70px;
     margin-left: 35px;
-    /* padding-top: 50px; */
+    padding-top: 50px;
 }
 .container{
     background-image: url('https://www.dabblinginjetlag.com/wp-content/uploads/2021/01/Best-Travel-Photography-Tips.jpg');
    object-fit: cover;
    background-repeat: no-repeat;
    height: 100vh;
+   /* margin: 50px; */
 }
 Title{
     padding: 0;

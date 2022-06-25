@@ -1,6 +1,6 @@
 import React from 'react';
-import './Signin.css';
-import {Input,Form} from "antd";
+//import './Signin.css';
+import {Input,Form, Card} from "antd";
 import { UserOutlined} from '@ant-design/icons';
 import {
     AutoComplete,
@@ -38,6 +38,8 @@ import {
 function RegistrationForm() {
     return(
         <>
+        <div className="container"  >
+
       <text style={{marginLeft:'50px',fontSize:'32px'}}>Sign-Up</text>
       <Form style={{marginLeft:'40px'}}>  
 <Input size="medium" placeholder="Names" prefix={<UserOutlined />}style={{ width: '30%' }} />
@@ -69,13 +71,9 @@ function RegistrationForm() {
     <button type="primary"style={{width: '15%',marginLeft:'60px',padding:'8px'}} >Register </button>
           
     </Form>
-    <Form-item style={{float:'right'}}>
-      <title>Contacts</title>
-      <text>Email:ingabire@gmail.com</text> <br/>
-      <text>Teleph:+25678644302</text><br/>
-      <text>Twitter:ingabire@tweeter</text><br/>
-      <text>Linkedlin:ingabire@Linkedlin</text><br/>
-    </Form-item>
+  
+    
+      </div>
    
       </>     
     )       
