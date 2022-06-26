@@ -19,3 +19,17 @@
   .site-layout .site-layout-background {
     background: #fff;
   }
+  .bottom{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+  } 
+    .colorOption{
+      height: 15px;
+      width: 15px;
+      border-radius: 2px;
+      border: 1px solid #333;
+      cursor: pointer;
+     background-color: #1890ff;
+
+    }   

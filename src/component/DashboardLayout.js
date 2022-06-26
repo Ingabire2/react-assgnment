@@ -3,7 +3,7 @@ import 'antd/dist/antd.css';
 import './dashboard.css';
 import logo from '../assets/images/logo.jpg';
 import {Link} from 'react-router-dom';
-
+import DashboardIcon from '@mui/icons-material/Dashboard';
 import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
@@ -12,6 +12,7 @@ import {
   VideoCameraOutlined,
 } from '@ant-design/icons';
 import { Layout, Menu } from 'antd';
+import { style } from "@mui/system";
 const { Header, Sider, Content } = Layout;
 
 const Dashboard =({children,menuSelectorIndex})=>{
@@ -29,8 +30,8 @@ const Dashboard =({children,menuSelectorIndex})=>{
           items={[
               {
               key: '4',
-              //icon: <UserOutlined />,
-              label: 'Dashboard', 
+              icon: <DashboardIcon/>,
+              label: 'Dashboard' , 
             },
             {
               key: '1',
@@ -47,10 +48,15 @@ const Dashboard =({children,menuSelectorIndex})=>{
               icon: <UploadOutlined />,
               label: <Link to='/dashb'>Manager Users</Link>,
             },
-         
+           
           ]} > 
            </Menu>
-      
+           <div className="bottom">
+      <div className="colorOption"></div>
+      <div className="colorOption"></div>
+      <div className="colorOption"></div>
+      <div className="colorOption"></div></div>
+   
        
       </Sider>
       <Layout className="site-layout">
@@ -59,7 +65,7 @@ const Dashboard =({children,menuSelectorIndex})=>{
           style={{
             padding: 0, backgroundColor:"#999",
           }}
-        > ,<a href="/chart" style={{color:"black"}}>
+        > ,<a href="/chart" style={{color:"black "}}>
           {React.createElement (collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
             className: 'trigger ',
             

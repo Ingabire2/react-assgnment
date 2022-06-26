@@ -12,6 +12,7 @@ import ManagerUsers from '../views/Dashboard/ManagerUser';
 import Alltour from '../views/Dashboard/AllTours';
 import NewTour from '../views/Dashboard/CreateTours';
 import AdminChart from '../views/Dashboard/AdminChart';
+import NewUser from '../component/widgets/new/New';
 //import TotalGrowthBarChart from '../views/Dashboard/TotalBarChart';
 const Index =()=>{
     return (
@@ -29,6 +30,7 @@ const Index =()=>{
          <Route exact path='/dashb' element={<ManagerUsers/>}></Route>;
          <Route exact path='/dashboard' element={<Alltour/>}></Route>;
          <Route exact path='/chart' element={<AdminChart/>}></Route>;
+         <Route exact path='/user' element={<NewUser/>}></Route>;
 
         <Route exact path='/dashboard-admin' element={<NewTour/>}></Route>;
      </Routes>

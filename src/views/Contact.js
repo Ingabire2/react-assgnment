@@ -46,9 +46,9 @@ const Contact = () =>{
     </Button>
     </div>
     </div>
-    <Card style={{width: 300,margin:"40px",float:"right",marginTop:"-60rem",marginRight:"200px",textAlign:"center",
-    fontWeight:"bold"}}
-    title="CONTACT-US">
+    <Card style={{width: 300,margin:"40px",float:"right",marginTop:"-60rem",marginRight:"200px",
+    fontWeight:"bold",textAlign:"start",backgroundColor:'#999',border:'none'}}
+    title ="CONTACT-US">
     
     
       

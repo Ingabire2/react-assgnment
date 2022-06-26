@@ -12,9 +12,12 @@ const NewTour =()=>{
     return(
         <>
         <Dashboard menuSelectorIndex="2">
+        <Title style={{ display:"flex",marginLeft:"180px"
+        }}>Create Tour</Title>
         <Form onFinish={onFinish}
-        style={{backgroundColor:'#999',padding:' 4rem 6rem',marginRight:'380px'}}>
-        <Title>Create Tour</Title>
+        style={{backgroundColor:'#999',padding:' 4rem 6rem',marginRight:'380px',display:"flex"
+        ,flexWrap:'wrap'}}>
+        
                     <Form.Item label="Title"rules={[{ required: true }]}>
                     <Input placeholder="Title"></Input></Form.Item>
                    

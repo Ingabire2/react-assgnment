@@ -94,7 +94,7 @@ const UsersTable = () => {
       >
         <SingleUser data={userSelected} />
       </Drawer>
-      <h1 style={{ float: "left", fontWeight: "bold", marginLeft: "10px" }}>
+      <h1 style={{ float: "left", fontWeight: "bold", marginLeft: "10px",color:"black" }}>
         Customers
       </h1>
       <button
@@ -107,7 +107,7 @@ const UsersTable = () => {
           marginRight:'80px'
         }}
       >
-        ADD NEW
+        <a href="/user">ADD NEW</a>
       </button>
       <Table columns={columns} dataSource={users} />
     </>
