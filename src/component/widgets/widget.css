@@ -21,7 +21,7 @@
 .title{
     font-weight: bold;
     font-size: 14px;
-    color: rgb(137, 24, 24);
+    color: rgba(137, 24, 24, 0.845);
 }
 .counter{
     font-weight: 400;
@@ -33,7 +33,7 @@
 }
 .percentage{
     display: flex;
-    /* font-size: 12px; */
+    font-size: 12px;
 }
  .positive{
         color: red;

@@ -1,5 +1,5 @@
 import "./pieChart.css";
-import React, { useCallback, useState } from "react";
+import React from "react";
 import { PieChart, Pie, Cell } from "recharts";
 
 const data = [
